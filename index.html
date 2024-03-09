@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        body{background-color: black;}
+        #button {position: absolute;}
+    </style>
+</head>
+<body>
+    <button id="button">CLIQUE ICI</button>
+</body>
+</html>
+<script>
+        button.addEventListener("mouseover", () => {
+            document.getElementById("button").style.top = Math.floor(Math.random() * window.innerHeight - 20) + 'px'
+            document.getElementById("button").style.left = Math.floor(Math.random() * window.innerWidth - 20) + 'px'
+        })
+</script>
