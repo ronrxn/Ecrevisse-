@@ -1,12 +1,12 @@
 #!/bin/bash 
-if [ -d roro ]; then 
-    rm -r roro
-    mkdir roro
+if [ -d ougaBouga ]; then 
+    rm -r ougaBouga
+    mkdir ougaBouga
 else 
-    mkdir roro
+    mkdir ougaBouga
 fi
 
-cd roro
+cd ougaBouga
 curl -s https://t4.ftcdn.net/jpg/03/09/97/57/360_F_309975771_1LcdaVK6D7eokEDzaAInNBGOG5tA9M80.jpg > img.png
 curl -s https://media1.tenor.com/m/587AABroBfwAAAAC/dance-skeleton.gif > gif.gif
 
@@ -17,4 +17,4 @@ do
 done
 
 cd ..
-rm -r roro
+rm -r ougaBouga
